@@ -1,0 +1,13 @@
+npx react-native init climareact
+npx react-native run-android
+
+//otro faorma de trabajar con picker
+npm i @react-native-community/picker //powershell// no me funciono
+
+//mejor use 
+npm install @react-native-picker/picker --save
+import {Picker} from '@react-native-picker/picker';
+
+
+//Animated
+se importa Animated y se agrega un useState sin setState
